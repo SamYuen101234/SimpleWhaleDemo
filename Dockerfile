@@ -2,4 +2,4 @@
 FROM nginx:alpine
 COPY static /usr/share/nginx/html
 LABEL maintainer = "usha.mandya@docker.com"
-CMD echo "Hello World"
+CMD echo "Hello World!"
